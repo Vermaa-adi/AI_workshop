@@ -1,0 +1,13 @@
+####command for installing dependencies
+pip install streamlit langchain-community python-dotenv ollama
+
+###for last part
+ollama pull gemma:2b
+
+###for runing##
+streamlit run app.py
+
+### for .env file #####
+LANGCHAIN_API_KEY=your_api_key_here
+LANGCHAIN_PROJECT=MyChatbotProject
+#######################
